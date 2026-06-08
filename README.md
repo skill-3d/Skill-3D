@@ -120,7 +120,7 @@ All tool-augmented methods should use the same tool pool unless otherwise specif
 
 | Tool | Environment Variable | Default URL |
 | --- | --- | --- |
-| [Depth Anything v3](https://github.com/bytedance-seed/depth-anything-3) | `DEPTH_SERVER_URL` | `http://127.0.0.1:20019` |
+| [Depth-Anything-3](https://github.com/bytedance-seed/depth-anything-3) | `DEPTH_SERVER_URL` | `http://127.0.0.1:20019` |
 | [SAM3](https://github.com/facebookresearch/sam3) | `SEGMENTATION_SERVER_URL` | `http://127.0.0.1:20020` |
 | [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) | `DETECTION_SERVER_URL` | `http://127.0.0.1:20022` |
 | [Pi3](https://github.com/yyfz/Pi3) | `PI3_SERVER_URL` | `http://127.0.0.1:20030` |
@@ -333,7 +333,7 @@ If you find this repository useful, please cite:
 
 ## 🙏 Acknowledgement
 
-Skill-3D builds on the [Think3D/SPAgent](https://github.com/zhangzaibin/spagent) codebase and integrates open-source expert tools including [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), [SAM3](https://github.com/facebookresearch/sam3), [Depth Anything](https://github.com/bytedance-seed/depth-anything-3), [Pi3](https://github.com/yyfz/Pi3), [SwinIR](https://github.com/JingyunLiang/SwinIR), [Orient-Anything](https://github.com/SpatialVision/Orient-Anything-V2), [ms-swift](https://github.com/modelscope/ms-swift), and [vLLM](https://github.com/vllm-project/vllm).
+Skill-3D builds on the [Think3D/SPAgent](https://github.com/zhangzaibin/spagent) codebase and integrates open-source expert tools including [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), [SAM3](https://github.com/facebookresearch/sam3), [Depth-Anything-3](https://github.com/bytedance-seed/depth-anything-3), [Pi3](https://github.com/yyfz/Pi3), [SwinIR](https://github.com/JingyunLiang/SwinIR), [Orient-Anything](https://github.com/SpatialVision/Orient-Anything-V2), [ms-swift](https://github.com/modelscope/ms-swift), and [vLLM](https://github.com/vllm-project/vllm).
 
 ---
 
