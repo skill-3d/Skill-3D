@@ -79,8 +79,7 @@ dataset/
 
 We release the `skill3d_splits` used for skill evolution, post-training, and
 evaluation [here](https://huggingface.co/datasets/lhy-zju/Skill-3D).
-Teacher-generated rollouts are collected only from training samples; held-out
-test samples are not used for skill construction or post-training.
+Teacher-generated rollouts are collected only from training samples.
 
 ---
 
