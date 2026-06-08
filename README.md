@@ -33,7 +33,7 @@
 Skill-3D addresses this by constructing a **Scene Memory** and evolving a **Skill Library**. Successful tool-use rollouts are distilled into reusable scene-aware workflows, while failed rollouts are retained as corrective lessons. At inference time, Skill-3D retrieves scene-task-relevant skills to guide tool planning, evidence acquisition, and answer grounding. We further use skill-guided trajectories for agentic SFT and GRPO, transferring scene-aware tool-use behavior into compact MLLM agents.
 
 <p align="center">
-  <img src="assets/motivation.png" width="92%" alt="Skill-3D motivation and overview">
+  <img src="assets/motivation.png" width="80%" alt="Skill-3D motivation and overview">
 </p>
 
 ### Method:
@@ -44,7 +44,7 @@ Skill-3D addresses this by constructing a **Scene Memory** and evolving a **Skil
 - **Improved tool utilization.** Skill-3D improves effective tool usage from **39% to 78%** on VSI-Bench.
 
 <p align="center">
-  <img src="assets/main.png" width="92%" alt="Skill-3D method overview">
+  <img src="assets/main.png" width="90%" alt="Skill-3D method overview">
 </p>
 
 ---
