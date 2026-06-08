@@ -89,7 +89,7 @@ test samples are not used for skill construction or post-training.
 We test under the following environment:
 
 - Python 3.11
-- PyTorch with CUDA
+- PyTorch with CUDA 12.8
 - OpenAI-compatible API client
 - vLLM for local inference
 

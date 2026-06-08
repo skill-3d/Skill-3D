@@ -24,8 +24,8 @@ def _get_env_or_default(key: str, default: str) -> str:
 
 # client = OpenAI()
 client = OpenAI(
-    api_key=_get_env_or_default("OPENAI_API_KEY", "sk-CwYAuaV96a3Tu9pEQH3SLkTBypGJocjM66hOiJGrLJyVCqLL"),
-    base_url=_get_env_or_default("OPENAI_BASE_URL", "https://hk.xty.app/v1"),
+    api_key=_get_env_or_default("OPENAI_API_KEY", "EMPTY"),
+    base_url=_get_env_or_default("OPENAI_BASE_URL", "http://127.0.0.1:8001/v1"),
     timeout=float(_get_env_or_default("OPENAI_TIMEOUT", "60.0")),
     max_retries=int(_get_env_or_default("OPENAI_MAX_RETRIES", "2")),
 )

@@ -29,7 +29,7 @@ def _vllm_extra_body() -> dict:
 # Initialize Qwen client with vLLM configuration
 client = OpenAI(
     api_key=_get_env_or_default("OPENAI_API_KEY", "dummy"),
-    base_url=_get_env_or_default("OPENAI_BASE_URL", "http://10.8.131.51:30058/v1"),
+    base_url=_get_env_or_default("OPENAI_BASE_URL", "http://127.0.0.1:8001/v1"),
 )
 
 

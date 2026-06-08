@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 class ObjectDetectionTool(Tool):
     """Tool for object detection using GroundingDINO"""
     
-    def __init__(self, use_mock: bool = True, server_url: str = "http://10.8.131.51:30969"):
+    def __init__(self, use_mock: bool = True, server_url: str = "http://127.0.0.1:20022"):
         """
         Initialize object detection tool
         

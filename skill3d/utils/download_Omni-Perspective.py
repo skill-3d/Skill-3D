@@ -23,7 +23,7 @@ from PIL import Image
 import numpy as np
 
 
-def convert_to_blink_format(parquet_dir="/home/ubuntu/Downloads", 
+def convert_to_blink_format(parquet_dir="data/omni_perspective/parquet", 
                             save_dir="dataset", 
                             pattern="val-*.parquet"):
     """
@@ -227,7 +227,7 @@ def convert_to_blink_format(parquet_dir="/home/ubuntu/Downloads",
 # 以下是辅助函数，用于加载和探索数据集（可选使用）
 # ============================================================
 
-def load_from_parquet_files(parquet_dir="/home/ubuntu/Downloads", pattern="val-*.parquet"):
+def load_from_parquet_files(parquet_dir="data/omni_perspective/parquet", pattern="val-*.parquet"):
     """
     从本地parquet文件加载数据集（辅助函数）
     
@@ -336,7 +336,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="转换 Omni-Perspective 数据集为 BLINK 格式")
-    parser.add_argument("--parquet_dir", type=str, default="/home/ubuntu/Downloads",
+    parser.add_argument("--parquet_dir", type=str, default="data/omni_perspective/parquet",
                         help="parquet文件所在目录")
     parser.add_argument("--save_dir", type=str, default="dataset",
                         help="保存目录（将创建 Omni_Perspective_images 文件夹和 Omni_Perspective_All.jsonl）")

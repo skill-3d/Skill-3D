@@ -328,8 +328,8 @@ def main():
                        help='JSONL文件路径，包含图片列表')
     parser.add_argument('--ports', type=int, nargs='+', required=True,
                        help='Pi3服务器端口列表，例如: --ports 20030 20032 20034 20036')
-    parser.add_argument('--host', type=str, default='10.7.33.15',
-                       help='服务器主机地址 (默认: 10.7.33.15)')
+    parser.add_argument('--host', type=str, default='127.0.0.1',
+                       help='服务器主机地址 (默认: 127.0.0.1)')
     parser.add_argument('--output-dir', type=str, default='outputs/angle_views',
                        help='输出目录路径 (默认: outputs/angle_views)')
     parser.add_argument('--resume', action='store_true',
