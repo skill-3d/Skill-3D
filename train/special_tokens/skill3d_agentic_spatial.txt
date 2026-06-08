@@ -1,0 +1,8 @@
+<think>
+</think>
+<tool_call>
+</tool_call>
+<skill_choice>
+</skill_choice>
+<answer>
+</answer>

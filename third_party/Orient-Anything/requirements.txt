@@ -1,0 +1,9 @@
+torch==2.2.1
+transformers==4.38
+matplotlib
+pillow==10.2.0
+huggingface-hub==0.26.5
+gradio==5.9.0
+numpy==1.26.4
+onnxruntime
+rembg

@@ -1,0 +1,84 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local editors
+.vscode/
+.idea/
+
+# Datasets and generated samples. Keep dataset utility code only.
+/dataset/*
+!/dataset/*.py
+!/dataset/*.sh
+!/dataset/README.md
+/temp_frames/
+/repro_examples/
+/test_data/
+/test_outputs/
+
+# Checkpoints, model links, and heavyweight third-party assets. Keep only the
+# public checkpoints/ directory skeleton through .gitkeep files.
+/checkpoints/**
+!/checkpoints/
+!/checkpoints/**/
+!/checkpoints/**/.gitkeep
+/model_links/
+/models/
+/Qwen*/
+/SPAgent-*/
+/bert-base-uncased/
+/clip-vit-large-patch14/
+/models--*/
+/GroundingDINO/weights/
+/spagent/external_experts/**/checkpoints/
+
+# Runtime outputs.
+/logs/
+/results/
+/output/
+/outputs/
+/outputs_old/
+/wandb/
+/train/logs/
+/train/temp_frames_train/
+
+# Learned memories/skills are generated artifacts. The public repository keeps
+# the statics/skill3d_shared directory skeleton through README.md/.gitkeep only.
+/statics/skill3d_by_benchmark/
+/statics/learned*.json
+/statics/skill3d_shared/**/*.json
+/statics/skill3d_shared/**/*.jsonl
+!/statics/
+!/statics/skill3d_shared/
+!/statics/skill3d_shared/**/
+!/statics/skill3d_shared/README.md
+!/statics/skill3d_shared/**/.gitkeep
+
+# Large model/media/result files.
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.engine
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.ply
+*.pcd
+*.npy
+*.npz
+*.log
+*.jsonl
+*.csv
+*.tsv
