@@ -74,6 +74,10 @@ __pycache__/
 *.jpeg
 *.png
 *.webp
+!/assets/
+!/assets/.gitkeep
+!/assets/main.png
+!/assets/motivation.png
 *.ply
 *.pcd
 *.npy
