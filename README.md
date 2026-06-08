@@ -44,7 +44,7 @@ Skill-3D addresses this by constructing a **Scene Memory** and evolving a **Skil
 - **Improved tool utilization.** Skill-3D improves effective tool usage from **39% to 78%** on VSI-Bench.
 
 <p align="center">
-  <img src="assets/main.png" width="90%" alt="Skill-3D method overview">
+  <img src="assets/main.png" width="100%" alt="Skill-3D method overview">
 </p>
 
 ---
